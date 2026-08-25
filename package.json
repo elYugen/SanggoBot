@@ -1,0 +1,15 @@
+{
+  "name": "discord-ia-chatbot",
+  "version": "1.0.0",
+  "description": "Bot Discord connecté à Claude (Anthropic) pour des réponses conversationnelles naturelles",
+  "main": "index.js",
+  "type": "commonjs",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "discord.js": "^14.16.3",
+    "dotenv": "^16.4.5",
+    "groq-sdk": "^0.7.0"
+  }
+}
